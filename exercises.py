@@ -49,7 +49,8 @@ print("Pay", float(p)
     print(i)
 print('Blastoff!')     
       
-      
+"""   lazy code that assumed all numbers are positive, it would not have worked if all numbers were negative    
+   """   
 largest_so_far = -1
 print('Before', largest_so_far)
 for the_num in [9,41,12,3,74,15]:
