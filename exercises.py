@@ -197,4 +197,11 @@ for value in [3,41,12,9,74,15]:
     
 print ('After', smallest)      
       
+ #the output is 5     
+tot = 0
+for i in [5, 4, 3, 2, 1] :
+    tot= tot + 1
+print(tot)
+
+#basically in the above i switches from 0 to 5
       
