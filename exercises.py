@@ -161,8 +161,27 @@ print
 so that when it found the 3 it stops 
 """
 
+
+#smallest number 
+#first value as hypothesis for smallest so far
+"""
+This technique of using None can also be used for largest 
+"""
+print 
+print 
+
+smallest = None
+print('Before')
+for value in [9,41,12,3,74,15]:
+    if smallest is None:
+        smallest = value 
+    elif value<smallest:
+        smallest = value 
+    print(smallest, value)
+print('After', smallest )
+
       
-      
+#Bear in mind these codes are complicated      
       
       
       
