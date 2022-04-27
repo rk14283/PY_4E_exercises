@@ -27,6 +27,7 @@ else:
     
 print(pay)
 
+#Exercise 4.6 
 
 h = float (input("Enter Hours:"))
 r = float(input("Enter rate"))
