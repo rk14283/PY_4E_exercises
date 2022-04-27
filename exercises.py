@@ -156,7 +156,9 @@ for value in [9,41,12,3,74,15]:
 print 
 
 
-
+"""how might we make the loop more efficient 
+so that when it found the 3 it stops 
+"""
 
       
       
