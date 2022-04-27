@@ -133,6 +133,29 @@ for value in [9,41,12,3,74,15]:
         print('Large number', value)
 print('After')
 
+#this is cool use for try 
+try: 
+    prin #this code will blow up 
+except:
+    print
+    print 
+
+#Search using Boolean variable 
+"""
+If we just want to search and know if a vlaue was found, we 
+use a variable that starts at False and is set to True as
+soon as we fund what we are looking for. 
+"""
+
+found = False 
+print('Before', found)
+for value in [9,41,12,3,74,15]:
+    if value==3:
+        found = True 
+    print(found, value)
+print 
+
+
 
 
       
